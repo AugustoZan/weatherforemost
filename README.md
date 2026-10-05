@@ -4,7 +4,7 @@ Una aplicación móvil moderna de monitoreo meteorológico construida con **Flut
 
 ## Características Clave
 - **Búsqueda Reactiva con Debouncing:** Optimización de peticiones HTTP en el buscador mediante un temporizador de 400ms para mitigar la saturación de la API.
-- **Estrategia de Caché local (TTL):** Invalidation de datos del clima cada 10 minutos para proteger la cuota de consumo del backend y mitigar llamadas redundantes.
+- **Estrategia de Caché local (TTL):** Invalidación de datos del clima cada 10 minutos para proteger la cuota de consumo del backend y mitigar llamadas redundantes.
 - **Persistencia offline:** Almacenamiento no volátil de ciudades favoritas mediante `shared_preferences` con serialización JSON nativa.
 - **Manejo Defensivo de Errores:** Infraestructura de excepciones tipadas (`ExcepcionApi` y `ExcepcionDeRed`) y control estricto de nulabilidades (*Sound Null Safety*).
 - **Diseño Adaptable:** Componentes construidos sobre Material Design 3 con control dinámico del área visual expuesta por el teclado virtual (`viewInsets`).
